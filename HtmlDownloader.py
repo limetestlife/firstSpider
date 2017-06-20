@@ -12,10 +12,3 @@ class HtmlDownloader(object):
             r.encoding='utf-8'
             return r.text
         return None
-
-
-if __name__=='__main__':
-    hd = HtmlDownloader()
-    heml = hd.downloader('http://www.baidu.com')
-    print heml
-
